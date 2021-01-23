@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Document</title>
+    <title>Bootstrap</title>
 </head>
 
 <body>
@@ -52,10 +52,29 @@
                 </form>
             </div>
         </nav>
+        <!-- sidebar -->
         <sidebar class="sidebar">
+            <div class="container">
+                <h2>Sidebar</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+
 
         </sidebar>
-        <!-- carousel -->
+        <!-- main-carousel -->
         <main>
             <div class="container mt-3">
 
@@ -96,7 +115,7 @@
         <!-- aside -->
         <aside>
             <div class="container">
-                <h2>Stacked form</h2>
+                <h2>Form:</h2>
                 <form action="/action_page.php">
                     <div class="form-group">
                         <label for="email">Email:</label>
@@ -116,8 +135,14 @@
             </div>
 
         </aside>
-        <footer>
-
+        <!-- footer -->
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
         </footer>
     </div>
 </body>
